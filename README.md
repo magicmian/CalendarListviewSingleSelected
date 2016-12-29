@@ -2,7 +2,7 @@
 A calendar that can only select a single date
 
 
-![CalendarListviewSingleSelected](https://github.com/magicmian/CalendarListviewSingleSelected/header.png)
+![CalendarListviewSingleSelected](https://github.com/magicmian/CalendarListviewSingleSelected/blob/master/header.jpg)
 
 CalendarListviewSingleSelected provides a easy way to select dates with a calendar for API 18+.
 
