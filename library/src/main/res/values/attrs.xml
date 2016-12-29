@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DayPickerView">
+        <attr name="colorCurrentDay" format="color"/>
+        <attr name="colorSelectedDayBackground" format="color"/>
+        <attr name="colorSelectedDayText" format="color"/>
+        <attr name="colorPreviousDay" format="color"/>
+        <attr name="colorNormalDay" format="color" />
+        <attr name="colorMonthName" format="color" />
+        <attr name="colorDayName" format="color" />
+        <attr name="colorOldDay" format="color" />
+        <attr name="textSizeDay" format="dimension"/>
+        <attr name="textSizeMonth" format="dimension" />
+        <attr name="textSizeDayName" format="dimension" />
+        <attr name="headerMonthHeight" format="dimension" />
+        <attr name="selectedDayRadius" format="dimension" />
+        <attr name="calendarHeight" format="dimension" />
+        <attr name="enablePreviousDay" format="boolean" />
+        <attr name="currentDaySelected" format="boolean" />
+        <attr name="drawRoundRect" format="boolean" />
+        <attr name="needWeedTitle" format="boolean"/>
+        <attr name="ifSingleDate" format="boolean"/>
+        <attr name="MonthTitleLocation" format="enum">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            </attr>
+        <attr name="firstMonth" format="enum">
+            <enum name="一月" value="0" />
+            <enum name="二月" value="1" />
+            <enum name="三月" value="2" />
+            <enum name="四月" value="3" />
+            <enum name="五月" value="4" />
+            <enum name="六月" value="5" />
+            <enum name="七月" value="6" />
+            <enum name="八月" value="7" />
+            <enum name="九月" value="8" />
+            <enum name="十月" value="9" />
+            <enum name="十一月" value="10" />
+            <enum name="十二月" value="11" />
+        </attr>
+        <attr name="lastMonth" format="enum">
+            <enum name="一月" value="0" />
+            <enum name="二月" value="1" />
+            <enum name="三月" value="2" />
+            <enum name="四月" value="3" />
+            <enum name="五月" value="4" />
+            <enum name="六月" value="5" />
+            <enum name="七月" value="6" />
+            <enum name="八月" value="7" />
+            <enum name="九月" value="8" />
+            <enum name="十月" value="9" />
+            <enum name="十一月" value="10" />
+            <enum name="十二月" value="11" />
+        </attr>
+    </declare-styleable>
+</resources>
