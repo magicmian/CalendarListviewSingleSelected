@@ -13,8 +13,6 @@ https://github.com/traex/CalendarListview
 the original project is complexed and i learn a lot from it
 I modified this project to use for select a single data.I hope I do not offend the author.
 
-
-
 ### Usage
 
 Declare a DayPickerView inside your layout XML file:
@@ -71,6 +69,14 @@ CalendarListview is fully customizable:
 * app:firstMonth [enum def:-1] --> Start listview at the specified month
 * app:MonthTitleLocation [enum def:left] --> Month title location
 
+
+
+
+
+### Acknowledgements
+Thanks to [RobinChutaux](https://plus.google.com/+RobinChutaux) for his [CalendarListview](https://github.com/traex/CalendarListview).
+
+Thanks to [Flavien Laurent](https://github.com/flavienlaurent) for his [DateTimePicker](https://github.com/flavienlaurent/datetimepicker).
 
 ### MIT License
 
