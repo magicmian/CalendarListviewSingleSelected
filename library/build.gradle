@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 ext {
         bintrayRepo = 'maven'
-        bintrayName = ' calendarlistviewsingleselected'
+        bintrayName = 'calendarlistviewsingleselected'
 
         publishedGroupId = 'com.magicmian'
         libraryName = 'library'
@@ -15,7 +15,7 @@ ext {
         libraryVersion = '0.0.1'
 
         developerId = 'magicmian'
-        developerName = 'wangmian'
+        developerName = 'magicmian'
         developerEmail = 'wangmian1994@outlook.com'
 
         licenseName = 'The Apache Software License, Version 2.0'
