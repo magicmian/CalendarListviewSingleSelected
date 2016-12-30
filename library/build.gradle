@@ -1,4 +1,27 @@
 apply plugin: 'com.android.library'
+ext {
+        bintrayRepo = 'maven'
+        bintrayName = ' calendarlistviewsingleselected'
+
+        publishedGroupId = 'com.magicmian'
+        libraryName = 'library'
+        artifact = 'library'
+
+        libraryDescription = 'A calendar that can only select a single date'
+
+        siteUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected'
+        gitUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected.git'
+
+        libraryVersion = '0.0.1'
+
+        developerId = 'magicmian'
+        developerName = 'wangmian'
+        developerEmail = 'wangmian1994@outlook.com'
+
+        licenseName = 'The Apache Software License, Version 2.0'
+        licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+        allLicenses = ["Apache-2.0"]
+}
 
 android {
     compileSdkVersion 25
@@ -26,3 +49,5 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.0.1'
     compile 'com.android.support:appcompat-v7:25.0.1'
 }
+apply from:'https://raw.githubusercontent.com/Jude95/JCenter/master/install.gradle'
+apply from:'https://raw.githubusercontent.com/Jude95/JCenter/master/bintray.gradle'
