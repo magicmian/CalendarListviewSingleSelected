@@ -13,6 +13,19 @@ https://github.com/traex/CalendarListview
 the original project is complexed and i learn a lot from it
 I modified this project to use for select a single data.I hope I do not offend the author.
 
+### Integration
+The lib is available on Maven Central, you can find it with [Gradle, please](http://gradleplease.appspot.com/#calendarlistview)
+``` xml
+
+dependencies {
+    compile 'com.magicmian:selectsinglecalendar:1.0.0'
+}
+
+```
+
+
+
+
 ### Usage
 
 Declare a DayPickerView inside your layout XML file:
