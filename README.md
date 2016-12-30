@@ -19,11 +19,17 @@ Declare a DayPickerView inside your layout XML file:
 
 ``` xml
 
-  <com.magicmian.com.library.DayPickerView
-         android:id="@+id/pickerView"
-         xmlns:calendar="http://schemas.android.com/apk/res-auto"
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"/>
+  <com.magicmian.com.selectsinglecalendar.DayPickerView
+          android:id="@+id/pickerView"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          calendar:MonthTitleLocation="left"
+          calendar:enablePreviousDay="false"
+          calendar:colorPreviousDay="#b2b2b2"
+          calendar:colorNormalDay="#4a4a4a"
+          calendar:drawRoundRect="false">
+
+   </com.magicmian.com.selectsinglecalendar.DayPickerView>
 
 ```
 

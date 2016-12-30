@@ -1,4 +1,4 @@
-package com.magicmian.com.library;
+package com.magicmian.com.selectsinglecalendar;
 
 import android.content.Context;
 import android.content.res.TypedArray;

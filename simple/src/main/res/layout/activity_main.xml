@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.magicmian.com.simple.MainActivity">
 
-    <com.magicmian.com.library.DayPickerView
+    <com.magicmian.com.selectsinglecalendar.DayPickerView
         android:id="@+id/pickerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,5 +20,5 @@
         calendar:colorNormalDay="#4a4a4a"
         calendar:drawRoundRect="false">
 
-    </com.magicmian.com.library.DayPickerView>
+    </com.magicmian.com.selectsinglecalendar.DayPickerView>
 </RelativeLayout>

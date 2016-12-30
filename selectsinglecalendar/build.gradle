@@ -1,26 +1,26 @@
 apply plugin: 'com.android.library'
 ext {
-        bintrayRepo = 'maven'
-        bintrayName = 'calendarlistviewsingleselected'
+    bintrayRepo = 'maven'
+    bintrayName = 'calendarlistviewsingleselected'
 
-        publishedGroupId = 'com.magicmian'
-        libraryName = 'library'
-        artifact = 'library'
+    publishedGroupId = 'com.magicmian'
+    libraryName = 'selectsinglecalendar'
+    artifact = 'selectsinglecalendar'
 
-        libraryDescription = 'A calendar that can only select a single date'
+    libraryDescription = 'A calendar that can only select a single date'
 
-        siteUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected'
-        gitUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected.git'
+    siteUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected'
+    gitUrl = 'https://github.com/magicmian/CalendarListviewSingleSelected.git'
 
-        libraryVersion = '0.0.1'
+    libraryVersion = '1.0.0'
 
-        developerId = 'magicmian'
-        developerName = 'magicmian'
-        developerEmail = 'wangmian1994@outlook.com'
+    developerId = 'magicmian'
+    developerName = 'magicmian'
+    developerEmail = 'wangmian1994@outlook.com'
 
-        licenseName = 'The Apache Software License, Version 2.0'
-        licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-        allLicenses = ["Apache-2.0"]
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 android {

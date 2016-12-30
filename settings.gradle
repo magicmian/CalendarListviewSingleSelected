@@ -1,1 +1,1 @@
-include ':library', ':library', ':simple'
+include ':simple', ':selectsinglecalendar'

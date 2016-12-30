@@ -1,4 +1,4 @@
-package com.magicmian.com.library;
+package com.magicmian.com.selectsinglecalendar;
 
 import java.util.Calendar;
 
